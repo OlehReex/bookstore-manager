@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]">
+  <test thread-count="5" name="Command line test(failed)">
+    <classes>
+      <class name="com.example.bookstore.integration.BookstoreIntegrationTests">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="after"/>
+          <include name="getAllBooks_returnsListDto"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="beforeSuite"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="getBook_byValidId_returnsDto"/>
+          <include name="before"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.example.bookstore.integration.BookstoreIntegrationTests -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

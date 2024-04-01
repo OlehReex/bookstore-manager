@@ -1,0 +1,18 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=bookstore-psql-db'
+      - 'POSTGRES_PASSWORD=test'
+      - 'POSTGRES_USER=test'
+    ports:
+      - '5433:5432'
+
+#  test-bookstore-app:
+#    image: test-bookstore-app-image
+#    environment:
+#      - 'DATABASE_URL=postgres://test:test@postgres:5432/bookstore-psql-db'
+#    ports:
+#      - '8081:8081'
+#    depends_on:
+#      - postgres

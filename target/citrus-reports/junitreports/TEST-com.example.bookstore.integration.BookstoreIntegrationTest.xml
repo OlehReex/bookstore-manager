@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.bookstore.integration.BookstoreIntegrationTests" time="0.0" tests="2" errors="0" skipped="0" failures="0">
+    <testcase name="BookstoreIntegrationTest.getAllBooks" classname="com.example.bookstore.integration.BookstoreIntegrationTests" time="0.0"/>
+    <testcase name="BookstoreIntegrationTest.getBookById" classname="com.example.bookstore.integration.BookstoreIntegrationTests" time="0.0"/>
+</testsuite>
