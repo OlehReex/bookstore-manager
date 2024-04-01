@@ -1,0 +1,5 @@
+languages:
+  Java:
+    - "*.java"
+  XML:
+    - "*.xml"

@@ -80,7 +80,7 @@ public class BookstoreIntegrationTests extends TestNGCitrusSpringSupport {
     @CitrusTest
     public void getBook_byValidId_returnsDto() {
         String queryByBookId = "SELECT * FROM books WHERE id = 'f52c591f-03be-4782-92b1-20b87858654d'";
-        String getRequestByBookId = "/books/f52c591f-03be-4782-92b1-20b87858654d";
+        String getRequestByBookId = "/books/9227c3df-8fac-4855-a510-ff8de4f5c3e2";
         String startEchoMessage = "Requesting book by id...";
         String finishEchoMessage = "Book received successfully!";
 
